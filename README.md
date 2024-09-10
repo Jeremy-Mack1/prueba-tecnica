@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto de Next.js - Prueba Técnica
+
+Este es un proyecto de prueba técnica utilizando [Next.js](https://nextjs.org/), creado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Descripción del Proyecto
+
+Este proyecto es una aplicación web básica creada con Next.js. La aplicación incluye una página de inicio que se puede editar en `pages/index.js` y una ruta API de ejemplo en `pages/api/hello.js`. El objetivo principal de este proyecto es demostrar el uso de Next.js para la creación de aplicaciones web con renderizado del lado del servidor y generación de sitios estáticos.
+
+## Características
+
+- **Páginas React**: La aplicación incluye una página de inicio que se puede modificar para mostrar contenido personalizado.
+- **Rutas API**: Un endpoint de API de ejemplo está disponible en `/api/hello`, que puede ser modificado para manejar solicitudes HTTP.
+- **Optimización de fuentes**: Utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente la fuente Inter.
 
 ## Getting Started
 
-First, run the development server:
+Sigue estos pasos para comenzar a trabajar con el proyecto:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Instala las dependencias**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```bash
+    npm install
+    # o
+    yarn install
+    # o
+    pnpm install
+    # o
+    bun install
+    ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. **Ejecuta el servidor de desarrollo**:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    ```bash
+    npm run dev
+    # o
+    yarn dev
+    # o
+    pnpm dev
+    # o
+    bun dev
+    ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+3. **Abre la aplicación**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-## Learn More
+## Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+- **`pages/index.js`**: El archivo principal de la página de inicio. Puedes empezar a editar esta página para ajustar el contenido de tu aplicación.
+- **`pages/api/hello.js`**: Un archivo de ruta API de ejemplo que maneja solicitudes HTTP en `/api/hello`. Puedes modificar este archivo para manejar diferentes tipos de solicitudes y respuestas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para aprender más sobre Next.js y cómo utilizar sus características, consulta los siguientes recursos:
 
-## Deploy on Vercel
+- [Documentación de Next.js](https://nextjs.org/docs) - Aprende sobre las características y la API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - Un tutorial interactivo para aprender Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+También puedes revisar [el repositorio de Next.js en GitHub](https://github.com/vercel/next.js/) para obtener más información y contribuir al proyecto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Despliegue en Vercel
+
+La forma más sencilla de desplegar tu aplicación de Next.js es utilizar la [plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme). Consulta nuestra [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para obtener detalles sobre cómo implementar tu aplicación en Vercel.
+
+---
+
+¡Esperamos que este proyecto te ayude a aprender y demostrar tus habilidades con Next.js! Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en contactar.
+
